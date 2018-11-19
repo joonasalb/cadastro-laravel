@@ -1,0 +1,28 @@
+>php artisan crud:generate Person --fields="name:string; email:string; gender:char; birthdate:date" --route=yes --pk=id
+
+Você deverá ver a seguinte saída:
+
+
+Controller created successfully.
+Model created successfully.
+Migration created successfully.
+View created successfully.
+Crud/Resource route added to .../cadastro/app/Http/routes.php
+Ótimo!
+
+na raiz do projeto,
+
+>php artisan migrate
+
+Você verá uma saída parecida com esta:
+
+Migration table created successfully.
+Migrated: 2014_10_12_000000_create_users_table
+Migrated: 2014_10_12_100000_create_password_resets_table
+Migrated: 2015_11_27_124058_create_people_table
+
+inicia...
+
+biblioteca,
+
+http://blog.ultimatephp.com.br/sistema-de-cadastro-php-laravel/
